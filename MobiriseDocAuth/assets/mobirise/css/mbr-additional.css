@@ -1368,17 +1368,23 @@ body {
   padding-bottom: 60px;
   background-image: url("../../../assets/images/mbr-4-1620x1080.jpg");
 }
-.cid-qFAfVXQtHN {
+.cid-qFEQ1rcBDH {
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: #ffffff;
 }
-.cid-qFAfVXQtHN .mbr-text,
-.cid-qFAfVXQtHN blockquote {
-  color: #767676;
+@media (min-width: 992px) {
+  .cid-qFEQ1rcBDH .mbr-figure {
+    padding-right: 4rem;
+  }
 }
-.cid-qFAfVXQtHN .mbr-text {
-  text-align: center;
+@media (max-width: 992px) {
+  .cid-qFEQ1rcBDH .mbr-figure {
+    padding-bottom: 1rem;
+  }
+}
+.cid-qFEQ1rcBDH .mbr-text {
+  color: #767676;
 }
 .cid-qFAixK77DM {
   padding-top: 90px;
